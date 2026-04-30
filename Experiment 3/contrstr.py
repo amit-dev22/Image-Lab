@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread(r'C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg', 0)
+img = cv2.imread(r'C:/Users/amit/OneDrive/Desktop/image processing lab/im.jpeg', 0)
 
 min_val, max_val = np.min(img), np.max(img)
 
