@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read image in grayscale
-img = cv2.imread(r'C:\Users\kirti\OneDrive\Desktop\KRMU\image processing lab\im.jpeg', 0)
+img = cv2.imread(r'C:\Users\amit\OneDrive\Desktop\KRMU\image processing lab\im.jpeg', 0)
 
 # Check if image loaded correctly
 if img is None:
