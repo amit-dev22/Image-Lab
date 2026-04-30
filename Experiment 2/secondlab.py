@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread(r"C:\Users\kirti\OneDrive\Desktop\image processing lab\im.jpeg",0)
+img = cv2.imread(r"C:\Users\amit\OneDrive\Desktop\image processing lab\im.jpeg",0)
 
 if img is None:
     print("Error loading image")
