@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread(r'C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg', 0)
+img = cv2.imread(r'C:/Users/amit/OneDrive/Desktop/image processing lab/im.jpeg', 0)
 he_img = cv2.equalizeHist(img)
 plt.figure(figsize=(10, 4))
 plt.subplot(1, 3, 1);plt.imshow(img, cmap='gray');plt.title("Original Image");plt.axis('off')
