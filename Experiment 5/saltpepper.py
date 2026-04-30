@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img = cv2.imread(r'C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg', 0)
+img = cv2.imread(r'C:/Users/amit/OneDrive/Desktop/image processing lab/im.jpeg', 0)
 # Gaussian Noise
 gauss = img.astype(np.float32) + np.random.normal(0, 20, img.shape)
 gauss = np.clip(gauss, 0, 255).astype(np.uint8)
