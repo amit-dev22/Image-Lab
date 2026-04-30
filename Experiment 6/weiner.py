@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read image in grayscale
-img = cv2.imread('C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg', 0)
+img = cv2.imread('C:/Users/amit/OneDrive/Desktop/image processing lab/im.jpeg', 0)
 
 # Add sinusoidal noise
 noise = 20 * np.sin(np.linspace(0, 50, img.shape[1]))
