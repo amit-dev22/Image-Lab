@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read input image
-img = cv2.imread('C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg', 0)
+img = cv2.imread('C:/Users/amit/OneDrive/Desktop/image processing lab/im.jpeg', 0)
 
 # Get image dimensions
 rows, cols = img.shape[:2]
