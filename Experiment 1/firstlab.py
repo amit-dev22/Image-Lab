@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread(r"C:\Users\kirti\OneDrive\Desktop\im.jpeg")
+img = cv2.imread(r"C:\Users\amit\OneDrive\Desktop\im.jpeg")
 
 if img is None:
     print("ERROR: Image not loaded. Check path or filename.")
